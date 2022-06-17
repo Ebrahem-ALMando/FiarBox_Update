@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,20 +9,22 @@
     text-decoration: none;
     transition: all .4s linear ease;
 }
-html{
+
+html {
     overflow-x: hidden;
 }
-body{
+
+body {
     background: #e5e5e5;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,100 +32,111 @@ header{
     box-shadow: 0 4px 24px 4px #e0e0e0;
 }
 
-header .logo{
+header .logo {
     margin-left: 8%;
     padding: 20px;
 }
 
-header .logo img{
+header .logo img {
     width: 148px;
     height: 49px;
 }
 
-header .btns{
+header .btns {
     margin-right: 80px;
 }
 
-header .btns a{
+header .btns a {
     display: inline-block;
     margin: auto 10px;
     padding: 10px 25px;
 }
 
-header .btns a i{
+header .btns a i {
     padding-right: 5px;
 }
 
-.green{
+.green {
     border: 2px solid #a1af00;
     border-radius: 10px;
     color: #a1af00;
-    font-size:18px;
+    font-size: 18px;
 }
-.gray{
+
+.gray {
     border: 2px solid #4f4f4f;
     border-radius: 10px;
     color: #4f4f4f;
-    font-size:18px;
+    font-size: 18px;
 }
 
-.service-info .head{
+.service-info .head {
     margin-left: 8%;
     padding-top: 40px;
 }
 
-.service-info .head h1{
+.service-info .head h1 {
     color: #333;
     font-size: 48px;
     padding-bottom: 40px;
     font-weight: bold;
 }
 
-.service-info .head p{
+.service-info .head p {
     color: #4f4f4f;
     font-size: 32px;
 }
 
-.service-info .container{
+.service-info .container {
     display: flex;
     justify-content: space-between;
     margin-left: 8%;
     margin-top: 30px;
 }
 
-.box-one{
-    flex:  1 1 48rem;
+.box-one {
+    flex: 1 1 48rem;
     margin-right: 120px;
 }
-.box-tow{
-    flex:  1 1 454px;
+
+.box-tow {
+    flex: 1 1 454px;
 }
 
-.hidebox{
+.hidebox {
     display: none;
 }
 
-.hizmet, .hizmet-2, .hizmet-3 {
+.hizmet,
+.hizmet-2,
+.hizmet-3 {
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
- .hizmet h1, .hizmet-2 h1, .hizmet-3 h1, .hizmet-4 h1, .hizmet-5 h1, .box h1{
+.hizmet h1,
+.hizmet-2 h1,
+.hizmet-3 h1,
+.hizmet-4 h1,
+.hizmet-5 h1,
+.box h1 {
     font-size: 20px;
     color: #333;
     padding: 10px 0;
     font-weight: 900;
 }
 
- .hizmet select{
+.hizmet select {
     padding: 10px;
     background: transparent;
     border: 1px solid #bdbdbd;
     margin-right: 20px;
     border-radius: 6px;
-    width:300px;
+    width: 300px;
     height: 60px;
 }
- .hizmet label{
+
+.hizmet label {
     padding: 15px 20px;
     text-align: center;
     margin-right: 10px;
@@ -136,7 +148,7 @@ header .btns a i{
     cursor: pointer;
 }
 
- .hizmet-2 label{
+.hizmet-2 label {
     padding: 15px 20px;
     text-align: center;
     margin-right: 10px;
@@ -150,7 +162,7 @@ header .btns a i{
     height: 80px;
 }
 
- .hizmet-3 label{
+.hizmet-3 label {
     padding: 15px 20px;
     text-align: center;
     margin-right: 10px;
@@ -161,9 +173,9 @@ header .btns a i{
     font-size: 18px;
     cursor: pointer;
     width: 194px;
-} 
+}
 
- .hizmet-4 label{
+.hizmet-4 label {
     padding: 15px 20px;
     text-align: center;
     margin-right: 10px;
@@ -175,12 +187,13 @@ header .btns a i{
     cursor: pointer;
     width: 217px;
     height: 116px;
-} 
-.hizmet-5{
-    width:500px;
 }
 
-.hizmet-5 label{
+.hizmet-5 {
+    width: 500px;
+}
+
+.hizmet-5 label {
     padding: 15px 20px;
     text-align: center;
     margin-right: 10px;
@@ -196,68 +209,69 @@ header .btns a i{
     align-items: center;
     width: 138px;
     height: 116px;
-} 
+}
 
-
- .hizmet label span{
+.hizmet label span {
     color: #a1af00;
 }
- .hizmet-2 label span{
+
+.hizmet-2 label span {
+    color: #a1af00;
+    display: block;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.hizmet-3 label span {
     color: #a1af00;
     display: block;
     font-size: 12px;
     padding-top: 10px;
 }
 
- .hizmet-3 label span{
-    color: #a1af00;
-    display: block;
-    font-size: 12px;
-    padding-top: 10px;
-}
- .hizmet-4 label span{
+.hizmet-4 label span {
     color: #a1af00;
     display: block;
     font-size: 28px;
     padding-top: 10px;
 }
 
-.hizmet-5 label img, .hizmet-5 label i{
+.hizmet-5 label img,
+.hizmet-5 label i {
     color: #bdbdbd;
     display: block;
     font-size: 32px;
     text-align: center;
 }
-.text{
+
+.text {
     padding: 10px;
 }
 
-input[type=radio]:checked + label{
+input[type=radio]:checked+label {
     background: #a1af00;
     color: #fff;
 }
 
-input[type=radio]:checked + label span{
+input[type=radio]:checked+label span {
     color: #fff;
 }
 
-input[type=radio]:checked + label i {
+input[type=radio]:checked+label i {
     color: #fff;
 }
 
-
-.note{
+.note {
     margin-top: 10px;
     color: #828282;
     font-size: 16px;
 }
 
-.note i{
+.note i {
     color: #fe6161;
 }
 
-
-.boxs{
+.boxs {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -265,15 +279,14 @@ input[type=radio]:checked + label i {
     gap: 20px;
 }
 
-
-.t-info h1{
+.t-info h1 {
     font-size: 20px;
     color: #a1af00;
     padding: 10px 0;
     font-weight: 900;
 }
 
-.t-info label{
+.t-info label {
     padding: 15px 20px;
     text-align: center;
     margin-right: 10px;
@@ -288,18 +301,17 @@ input[type=radio]:checked + label i {
     height: 80px;
 }
 
-
-.card{
+.card {
     display: flex;
     flex-direction: column;
     background-color: transparent;
     border-radius: 6px;
     border: 1px solid #bdbdbd;
-    width:454px;
+    width: 454px;
     height: 419px;
 }
 
-.card .con p{
+.card .con p {
     padding: 6px 15px;
     margin: 4px 0;
     font-size: 18px;
@@ -307,50 +319,51 @@ input[type=radio]:checked + label i {
     font-weight: 500;
 }
 
-.card p i{
+.card p i {
     color: #a1af00;
     padding-right: 6px;
 }
 
-.card .details .info{
+.card .details .info {
     display: flex;
     justify-content: space-between;
     padding: 0 17px;
 }
-.card .details .info p{
+
+.card .details .info p {
     font-size: 20px;
     color: #000;
     font-weight: bold;
     margin: 4px 0;
 }
 
-.card .details .info span{
+.card .details .info span {
     font-size: 20px;
     color: #000;
     font-weight: bold;
 }
 
-
-.card .info{
+.card .info {
     display: flex;
     justify-content: space-between;
     padding: 5px 17px;
 }
-.card > .info > p{
+
+.card>.info>p {
     font-size: 20px;
     color: #000;
     font-weight: 900;
     text-transform: uppercase;
 }
 
-.card .info span{
+.card .info span {
     font-size: 28px;
     color: #a1af00;
     font-weight: bold;
     margin: 8px 0;
 }
 
-.btn{
+.btn {
     text-align: center;
     padding: 18px 25px;
     background: #a1af00;
@@ -360,17 +373,18 @@ input[type=radio]:checked + label i {
     height: 68px;
     margin: 15px 15px 20px 15px;
 }
-.box-tow .card-container h1{
+
+.box-tow .card-container h1 {
     text-transform: uppercase;
     margin: 30px 0 10px 0;
     font-size: 20px;
 }
 
-.card-soz{
+.card-soz {
     background-color: transparent;
     border-radius: 6px;
     border: 1px solid #bdbdbd;
-    width:454px;
+    width: 454px;
     height: 80px;
     padding: 23px 25px;
     margin-top: 20px;
@@ -385,9 +399,7 @@ input[type=radio]:checked + label i {
     padding-right: 10px;
 }
 
-
-.f-btns{
-    
+.f-btns {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -395,15 +407,16 @@ input[type=radio]:checked + label i {
     gap: 20px;
     margin: 20px 0 50px 50%;
 }
- .f-btn{
-    
+
+.f-btn {
     background: #a1af00;
     padding: 10px 20px;
     text-align: center;
     color: #fff;
     border-radius: 6px;
 }
- .f-btn2{
+
+.f-btn2 {
     background: #000;
     color: #fff;
     padding: 10px 20px;
@@ -411,40 +424,37 @@ input[type=radio]:checked + label i {
     border-radius: 6px;
 }
 
- .f-btn2 i{
+.f-btn2 i {
     padding-right: 5px;
 }
 
-
-
-footer{
+footer {
     background: #fff;
     margin-top: 50px;
 }
 
-
-
-footer .footer{
+footer .footer {
     display: flex;
     align-items: flex-start;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
     padding: 30px;
 }
 
-footer .footer .box{
+footer .footer .box {
     flex: 1 1 20rem;
 }
 
-footer .footer .box h1{
+footer .footer .box h1 {
     font-size: 20px;
     color: #000;
     font-weight: bold;
     padding: 20px 0;
 }
 
-footer .footer .box > a, footer .footer .box p{
+footer .footer .box>a,
+footer .footer .box p {
     display: block;
     padding: 6px 0;
     font-size: 16px;
@@ -452,12 +462,11 @@ footer .footer .box > a, footer .footer .box p{
     transition: all .5s linear ease;
 }
 
-footer .footer .box > a:hover{
-    padding-left:20px ;
+footer .footer .box>a:hover {
+    padding-left: 20px;
 }
 
-
-.credit{
+.credit {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -465,42 +474,41 @@ footer .footer .box > a:hover{
     border-top: 1px solid #bdbdbd;
 }
 
-
-.credit p{
+.credit p {
     padding: 10px;
     font-size: 16px;
     color: #4f4f4f;
 }
 
-
-.credit .icons > a > i{
+.credit .icons>a>i {
     color: #4f4f4f;
     padding: 0 15px;
     font-size: 20px;
     cursor: pointer;
 }
 
-
-
-
-
-@media(max-width:768px){
-    .btns{
+@media(max-width:768px) {
+    .btns {
         display: none;
+    }
+    .boxs {
+        margin: 20px;
+    }
+    .Chi {
+        margin-top: 20px;
     }
 }
 
-@media(max-width:1230px){
-    .service-info .container{
+@media(max-width:1230px) {
+    .service-info .container {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap-reverse;
     }
-
-    .service-info .container .f-btn2{
+    .service-info .container .f-btn2 {
         display: none;
     }
-    .card-container{
+    .card-container {
         display: none;
     }
 }
